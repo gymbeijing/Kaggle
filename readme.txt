@@ -12,5 +12,5 @@ To run the code, you need to modify the dataset path to your dataset path. Defau
 
 There are two .csv files. 
 
-test.csv is the result of kaggle.py. 
-test2.csv is the result of kaggle2.py.
+submission.csv is the result of kaggle.py. 
+submission2.csv is the result of kaggle2.py.
