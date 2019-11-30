@@ -102,7 +102,7 @@ test_y[test_y<0]=0
 rf = RandomForestRegressor(n_estimators=500)
 rf.fit(train_x, train_y)
 test_y_2 = rf.predict(test_x)
-test_y_2[test_y<0]=0
+test_y_2[test_y_2<0]=0
 
 #sample_submission = pd.read_csv('/kaggle/input/msbd5001-fall2019/samplesubmission.csv')
 #sample_submission
